@@ -1,0 +1,132 @@
+*{
+    margin:0; padding:0;
+    font-size:inherit;
+    color:inherit;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Barlow', sans-serif;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+a {
+    outline:none;
+    text-decoration:none;
+    font-size:11px;
+    color:#2d2a2b;
+    display: block;
+}
+img {
+    border:none;
+}
+html {
+    height: 100%;
+}
+header {
+    max-width: 2160px;
+    width: 100%;
+}
+.blue {
+    box-sizing: border-box;
+    width:100%;
+    background-color: #e5e7e6;
+
+}
+.white {
+    padding-left: 6px;
+    box-sizing: border-box;
+    width: 966px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+.white:after {
+    content: "";
+    height: 0px;
+    display: block;
+    clear: both;
+}
+.choose {
+    display: block;
+    font-size: 11px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    float: left;
+}
+.country {
+    display: block;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 11px;
+    float: left;
+}
+.canada {
+    text-decoration: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 11px;
+    float: left;
+}
+.states {
+    text-decoration: none;
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    float: left;
+}
+.number {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 41px;
+    font-size: 11px;
+    float: right;
+}
+.login {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 21px;
+    border: -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #d0002f;
+    height: 16px;
+    width: 68px;
+    color: #fff;
+    background-color: #d0002f;
+    font-size: 11px;
+    float: right;
+}
+.store .fas {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 10px;
+    background: #252525;
+    margin-right: 14px;
+}
+
+.store {
+    box-sizing: border-box;
+    width: 88px;
+    height: 20px;
+    border: -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #333639;
+    text-decoration: none;
+    border: none;
+    background: #333639;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    margin-top: 4px;
+    margin-right: 22px;
+    float: right;
+}
