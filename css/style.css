@@ -276,6 +276,7 @@ header {
     padding-bottom: 6px;
     width: 103px;
     position: absolute;
+    z-index: 2;
     top: 40px;
     left: 0;
     background: rgba(30, 5, 11, 0.9);
